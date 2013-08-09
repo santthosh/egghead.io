@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular JS Tutorials</title>
+    <link rel="stylesheet" href="../src/vendor/foundation/css/foundation.min.css">
+</head>
+<script type="text/javascript" src="../src/vendor/angularjs/angular.js"></script>
+<script type="text/javascript" src="../src/theDot.js"></script>
+<body>
+
+<div ng-app="">
+    <!-- Try changing the data.message to message and see what happens -->
+    <input type="text" ng-model="data.message"/>
+    <h1>{{data.message}}</h1>
+
+    <div ng-controller="FirstCtrl">
+        <input type="text" ng-model="data.message"/>
+        <h1>{{data.message}}</h1>
+    </div>
+
+    <div ng-controller="SecondCtrl">
+        <input type="text" ng-model="data.message"/>
+        <h1>{{data.message}}</h1>
+    </div>
+</div>
+
+</body>
+</html>
