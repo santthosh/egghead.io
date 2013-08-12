@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42e9ace3-9b76-4091-9da7-25b0b771de44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/ngFilter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ngFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/defining_a_method_on_the_scope.html" afterPath="$PROJECT_DIR$/html/defining_a_method_on_the_scope.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/filters.html" afterPath="$PROJECT_DIR$/html/filters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/basicBehaviors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/basic_behaviors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/built-inFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/built-in_filters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/directiveRestrictions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/directive_restrictions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/directivesTalkingToControllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/directives_talking_to_controllers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/firstDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/first_directive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/usefulBehaviors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/useful_behaviors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/egghead.io.iml" afterPath="$PROJECT_DIR$/.idea/egghead.io.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="egghead.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376053353606" ignored="false" />
-    <file path="/index.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376056220887" ignored="false" />
+    <file path="/index.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376081803382" ignored="false" />
     <file path="/controllers.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376053808307" ignored="false" />
     <file path="/controllers.js" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376053854822" ignored="false" />
     <file path="/theDot.js" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376053987371" ignored="false" />
@@ -25,6 +34,16 @@
     <file path="/filters.js" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376055601220" ignored="false" />
     <file path="/ngFilter.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376057153498" ignored="false" />
     <file path="/ngFilter.js" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376056746571" ignored="false" />
+    <file path="/built-in_filters.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376074746975" ignored="false" />
+    <file path="/firstDirective.js" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376075181470" ignored="false" />
+    <file path="/first_directive.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376075220087" ignored="false" />
+    <file path="/directive_restrictions.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376075905515" ignored="false" />
+    <file path="/directiveRestrictions.js" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376075777053" ignored="false" />
+    <file path="/basic_behaviors.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376076547824" ignored="false" />
+    <file path="/basicBehaviors.js" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376076401735" ignored="false" />
+    <file path="/userful_behaviors.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376077176541" ignored="false" />
+    <file path="/usefulBehaviors.js" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376077365320" ignored="false" />
+    <file path="/directives_talking_to_controllers.html" changelist="42e9ace3-9b76-4091-9da7-25b0b771de44" time="1376081835777" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,25 +66,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="26" selection-start="720" selection-end="720" vertical-scroll-proportion="-10.625">
+            <state line="20" column="96" selection-start="1028" selection-end="1028" vertical-scroll-proportion="-3.7974684">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ngFilter.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/ngFilter.html">
+      <file leaf-file-name="directives_talking_to_controllers.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/directives_talking_to_controllers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="65" selection-start="506" selection-end="506" vertical-scroll-proportion="0.32761312">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ngFilter.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ngFilter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0">
+            <state line="7" column="73" selection-start="316" selection-end="316" vertical-scroll-proportion="0.2536232">
               <folding />
             </state>
           </provider>
@@ -89,19 +99,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/html/controllers.html" />
-        <option value="$PROJECT_DIR$/src/controllers.js" />
-        <option value="$PROJECT_DIR$/src/theDot.js" />
-        <option value="$PROJECT_DIR$/html/the_dot.html" />
-        <option value="$PROJECT_DIR$/src/sharingDataBetweenControllers.js" />
-        <option value="$PROJECT_DIR$/html/sharing_data_between_controllers.html" />
-        <option value="$PROJECT_DIR$/src/definingAMethodOnTheScope.js" />
         <option value="$PROJECT_DIR$/src/filters.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/filters.html" />
         <option value="$PROJECT_DIR$/html/defining_a_method_on_the_scope.html" />
         <option value="$PROJECT_DIR$/src/ngFilter.js" />
         <option value="$PROJECT_DIR$/html/ngFilter.html" />
+        <option value="$PROJECT_DIR$/html/built-in_filters.html" />
+        <option value="$PROJECT_DIR$/src/firstDirective.js" />
+        <option value="$PROJECT_DIR$/html/first_directive.html" />
+        <option value="$PROJECT_DIR$/src/directiveRestrictions.js" />
+        <option value="$PROJECT_DIR$/html/directive_restrictions.html" />
+        <option value="$PROJECT_DIR$/src/basicBehaviors.js" />
+        <option value="$PROJECT_DIR$/html/basic_behaviors.html" />
+        <option value="$PROJECT_DIR$/html/userful_behaviors.html" />
+        <option value="$PROJECT_DIR$/src/usefulBehaviors.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/html/directives_talking_to_controllers.html" />
       </list>
     </option>
   </component>
@@ -210,6 +223,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egghead.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egghead.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -222,6 +253,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -232,13 +264,29 @@
       <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JsTestDriver.jsTestDriver.conf">
+    <configuration default="false" name="jsTestDriver.conf" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver" temporary="true">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="$PROJECT_DIR$/jsTestDriver.conf" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <RunnerSettings RunnerId="JsTestDriverClientRunner" />
+      <ConfigurationWrapper RunnerId="JsTestDriverClientRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -248,7 +296,14 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JsTestDriver.jsTestDriver.conf" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JsTestDriver.jsTestDriver.conf" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -276,20 +331,40 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6724387" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.49964714" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.50035286" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -360,107 +435,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/binding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="267" selection-end="356" vertical-scroll-proportion="0.23400936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/testing_overview.html">
+    <entry file="file://$PROJECT_DIR$/src/testingOverview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/theDot.js">
+    <entry file="file://$PROJECT_DIR$/test/unit/testingOverviewSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="61" selection-end="61" vertical-scroll-proportion="0.067669176">
+        <state line="0" column="0" selection-start="0" selection-end="419" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers.js">
+    <entry file="file://$PROJECT_DIR$/src/built-inFilters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/controllers.html">
+    <entry file="file://$PROJECT_DIR$/html/built-in_filters.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="54" selection-start="297" selection-end="297" vertical-scroll-proportion="-4.375">
+        <state line="16" column="67" selection-start="655" selection-end="655" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/the_dot.html">
+    <entry file="file://$PROJECT_DIR$/jsTestDriver.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="70" selection-start="401" selection-end="401" vertical-scroll-proportion="-6.875">
+        <state line="10" column="26" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sharingDataBetweenControllers.js">
+    <entry file="file://$PROJECT_DIR$/src/firstDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+        <state line="5" column="50" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/sharing_data_between_controllers.html">
+    <entry file="file://$PROJECT_DIR$/html/first_directive.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="107" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.5">
+        <state line="11" column="14" selection-start="362" selection-end="362" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/filters.js">
+    <entry file="file://$PROJECT_DIR$/src/directiveRestrictions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="76" selection-end="76" vertical-scroll-proportion="0.04511278">
+        <state line="12" column="22" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/definingAMethodOnTheScope.js">
+    <entry file="file://$PROJECT_DIR$/html/directive_restrictions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="266" selection-end="281" vertical-scroll-proportion="0.2932331">
+        <state line="12" column="23" selection-start="410" selection-end="410" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicBehaviors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="39" selection-start="28" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/basic_behaviors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="413" selection-end="413" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/useful_behaviors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="58" selection-start="301" selection-end="301" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/usefulBehaviors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="62" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directivesTalkingToControllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="720" selection-end="720" vertical-scroll-proportion="-10.625">
+        <state line="20" column="96" selection-start="1028" selection-end="1028" vertical-scroll-proportion="-3.7974684">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/defining_a_method_on_the_scope.html">
+    <entry file="file://$PROJECT_DIR$/html/directives_talking_to_controllers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="354" selection-end="354" vertical-scroll-proportion="0.23400936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/filters.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="336" selection-end="336" vertical-scroll-proportion="0.23400936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ngFilter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/ngFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="65" selection-start="506" selection-end="506" vertical-scroll-proportion="0.32761312">
+        <state line="7" column="73" selection-start="316" selection-end="316" vertical-scroll-proportion="0.2536232">
           <folding />
         </state>
       </provider>

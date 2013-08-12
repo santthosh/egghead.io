@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular JS Tutorials</title>
+    <link rel="stylesheet" href="../src/vendor/foundation/css/foundation.min.css">
+</head>
+<script type="text/javascript" src="../src/vendor/angularjs/angular.js"></script>
+<script type="text/javascript" src="../src/built-inFilters.js"></script>
+<body>
+
+<div ng-app="myApp">
+    <div ng-controller="AvengersCtrl">
+        <input type="text" ng-model="search.$">
+        <table>
+            <tr ng-repeat="actor in avengers.cast | orderBy:'-name' | limitTo:-5 | filter:search">
+                <td>{{actor.name | lowercase}}</td>
+                <td>{{actor.character | uppercase}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
